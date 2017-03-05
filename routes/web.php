@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/* new page router
+ * simple
+  get('/', 'StaticPagesController@home');
+  get('/help', 'StaticPagesController@help');
+  get('/about', 'StaticPagesController@about');
+ */
+
+Route::get('/', 'StaticPagesController@home');
+Route::get('/help', 'StaticPagesController@help');
+Route::get('/about', 'StaticPagesController@about');
