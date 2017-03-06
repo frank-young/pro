@@ -8310,13 +8310,6 @@ button.close {
     display: inline-block !important;
   }
 }
-<<<<<<< HEAD
-
-@media print {
-  .hidden-print {
-    display: none !important;
-  }
-=======
 
 @media print {
   .hidden-print {
@@ -8363,5 +8356,4 @@ footer img.brand-icon {
 footer .slogon {
   font-size: 13px;
   font-weight: bold;
->>>>>>> filling-layout-style
 }
